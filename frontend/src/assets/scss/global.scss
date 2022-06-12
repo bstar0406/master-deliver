@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Avenir";
+  src: local("Avenir"), url(../fonts/AvenirLTStd-Book.otf) format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Black";
+  src: local("Avenir-Black"),
+    url(../fonts/AvenirLTStd-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+    url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: local("Avenir-Heavy"),
+    url(../fonts/Avenir-Heavy.ttf) format("truetype");
+}
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+input {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f5fa !important;
+}
+.App {
+  background-color: #f2f5fa;
+}
+.w-102 {
+  width: 150%;
+}
+.w-95 {
+  width: 95%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-60 {
+  width: 60%;
+}
+.h-100{
+  height:100%
+}
+.top-85{
+  margin-top: 85px;
+}
+.top-80{
+  margin-top: 80px;
+}
+.top-edit{
+  margin-top: 280px;
+}
+.top-card-list{
+  margin-top: 55px;
+}
+.top-108{
+  margin-top: 108px;
+}
+.top-25{
+  margin-top: 25px;
+}
+.top-72{
+  margin-top: 72px;
+}
+.top-45{
+  margin-top: 45px;
+}
+.bottom-34{
+  margin-bottom: 34px;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.underline{
+  text-decoration: underline;
+}
+.cursor{
+  cursor: pointer;
+}
+.italic{
+  font-style: italic !important;
+}
+.bold {
+  font-weight: bold;
+  font-family: Avenir-Black, Helvetica, Arial, sans-serif;
+}
+.side-title {
+  font-weight: bold;
+  font-family: Avenir-Black, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+.underline-none {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.dust{
+  color:#384182
+}
+.circle-green{
+  background-color:#528a62 !important
+}
+.circle-red{
+  background-color:#d1564e
+}
+.circle-purple{
+  background-color:#460964
+}
+.circle-black{
+  background-color:#222222
+}
+.top-space{
+  margin-top:108px;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.box-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.box-scroll::-webkit-scrollbar-track {
+  background: rgb(226,227,228);;
+}
+
+.box-scroll::-webkit-scrollbar-thumb {
+  background-color: rgb(167,176,186);
+  border-radius: 20px;
+  border: 1px solid rgb(226,227,228);;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.scroll-product::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+.scroll-product::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);;
+}
+
+.scroll-product::-webkit-scrollbar-thumb {
+  background-color: #fdde81;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);;
+}
+
+.scroll-step2::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+.scroll-step2::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-step2::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  background: #f2f5fa;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background-color: #fdde81;
+  border-radius: 20px;
+  border: 1px solid #f2f5fa;
+}
+
+.scroll-overview::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+}
+
+.scroll-overview::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-overview::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}

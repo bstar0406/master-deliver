@@ -1,0 +1,5 @@
+<svg id="ic-bell" xmlns="http://www.w3.org/2000/svg" width="43" height="49" viewBox="0 0 43 49">
+  <path id="Path_401" data-name="Path 401" d="M0,0H43V49H0Z" fill="none"/>
+  <path id="Path_402" data-name="Path 402" d="M17.125,7.083A4.237,4.237,0,0,1,21.5,3a4.237,4.237,0,0,1,4.375,4.083,14.307,14.307,0,0,1,8.75,12.25v6.125A8.169,8.169,0,0,0,39,31.583H4a8.169,8.169,0,0,0,4.375-6.125V19.333a14.307,14.307,0,0,1,8.75-12.25" fill="none" stroke="#7e84a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_403" data-name="Path 403" d="M9,17v1.6c0,2.654,1.886,4.8,4.213,4.8s4.213-2.151,4.213-4.8V17" transform="translate(8.469 15.372)" fill="none" stroke="#7e84a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

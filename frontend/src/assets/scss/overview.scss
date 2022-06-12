@@ -1,0 +1,216 @@
+.overview-title{
+    font-family: Avenir-Heavy;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.overview-subtitle{
+  font-family: Avenir-Black;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.11px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-mask {
+  padding: 63px 24px 0px;
+  border-radius: 25px;
+  background-color: #f2f5fa;
+}
+
+.overview-box-img {
+  position: absolute;
+  top: -20px;
+}
+
+.overview-box-title{
+  font-family: Montserrat-Bold;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.14px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-box-description{
+  opacity: 0.8;
+  font-size: 16px;
+  font-family: Avenir !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  min-height: 48px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-box-small-text {
+  font-family: Avenir !important;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-box-line {
+  width: 100%;
+  margin: 4px 0 11px;
+  border: solid 1px #384182;
+}
+
+.overview-box-item-title {
+  font-family: Avenir-Black ;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.11px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-box-item-content{
+  font-family: Avenir !important;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.overview-box-item-link{
+  font-family: Avenir !important;
+  font-size: 12px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #384182;
+}
+
+.overview-history-link {
+  font-family: Avenir-Black !important;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 1.25px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #384182;
+}
+
+.overview-table-title{
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: #757575;
+  text-transform: uppercase;
+  .MuiSvgIcon-root{
+    font-size: 1.3rem;
+    margin-top:-3px;
+    color: #d8d8d8;
+  }
+}
+
+.overview-table-content{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #757575;
+}
+
+.overview-table-line {
+  width: 100%;
+  height: 1px;
+  margin: 23px 0 28px;
+  background-color: #d8d8d8;
+}
+.overview-table-line-start {
+  width: 100%;
+  height: 1px;
+  margin: 19px 0 28px;
+  background-color: #d8d8d8;
+}
+
+.overview-table-link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #384182;
+}
+
+.overview-circle-progress {
+  width: 10px;
+  height: 10px;
+  margin: 5px 10px 5px 0;
+  border-radius:50%;
+  background-color: #f3b804;
+}
+
+.overview-circle-submitted {
+  width: 10px;
+  height: 10px;
+  margin: 5px 10px 5px 0;
+  border-radius:50%;
+  background-color: #384182;
+}
+
+.overview-circle-shipped {
+  width: 10px;
+  height: 10px;
+  margin: 5px 10px 5px 0;
+  border-radius:50%;
+  background-color: #8e909a;
+}
+
+.overview-table-pagination-text {
+  margin: 0 28px 0 0;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #757575;
+  .MuiSvgIcon-root{
+    font-size: 1.3rem;
+    margin-top:-3px;
+    color: #d8d8d8;
+  }
+}

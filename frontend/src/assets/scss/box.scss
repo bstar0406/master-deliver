@@ -1,0 +1,143 @@
+
+.box-img {
+  position: absolute;
+  top: -30px;
+}
+.box-check {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+.box-title-top-margin{
+  margin-top: 50px !important;
+}
+.box-padding-step2{
+  padding:32px 36px 0px 22px;
+}
+.box-padding-sticky{
+  padding-left:30px;
+}
+.box-padding-step1{
+  padding-right:16px;
+}
+.box-padding-overview{
+  padding:2px 12px 0px -4px;
+  padding-right:12px;
+}
+.box-padding-grid{
+  padding-left:71px;
+}
+
+.box-padding-step5{
+  padding-bottom:20px;
+}
+
+.box-upload{
+  font-size: 14px;
+  letter-spacing:1.25px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.box-upload-icon{
+  color: #384182;
+  margin-top: -5px;
+}
+
+.card-bar{
+  max-width: 600px;
+}
+
+.cate-bar{
+  max-width: 700px;
+}
+.upload-back {
+  width: 100%;
+  border-radius: 25px;
+  text-align: left;
+  background-color: white;
+  height: 50px;
+  display: block;
+}
+
+.box-style {
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 170px;
+  margin-right: 65px;
+  margin-bottom:30px;
+  position: relative;
+}
+
+.start-button {
+  background-color: "#FDDE81";
+  color: "black";
+  box-shadow: "none";
+  font-size: "12px";
+  border-radius: "10px";
+  width: "200px";
+  height: "40px";
+  margin-left: "auto !important";
+  &:hover {
+    background-color: "#FDDE81";
+    color: "black";
+  }
+}
+.box-card-height{
+  height:220px !important;
+}
+.box-step4-height{
+  height:700px !important;
+}
+.card-option {
+  width: 100%;
+  border-radius: 20px;
+  text-align: left;
+  background-color: #f2f5fa;
+  min-height: 402px;
+  &:hover {
+    background-color: white;
+    box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 10%), 0px 5px 5px 0px rgb(0 0 0 / 14%),
+      0px 5px 5px 0px rgb(0 0 0 / 12%);
+  }
+}
+.text-border{
+  .MuiInputBase-root, .MuiInputBase-root:hover, .MuiInputBase-root:focus-visible, .MuiInputBase-root:focus-within {
+    .MuiOutlinedInput-notchedOutline{
+      border-color:red;
+    }
+  }
+}
+.card-border{
+  border:red 2px solid;
+}
+
+.closeButton{
+  position: absolute;
+  top:32px;
+  right:30px;
+  cursor: pointer;
+  &:hover img{
+    filter:brightness(90%)
+  }
+}
+
+.overview-title{
+    font-family: Avenir-Black;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #000000;
+}
+.overview-subtitle{
+  font-family: Avenir-Black;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.11px;
+  color: rgba(0, 0, 0, 0.87);
+}

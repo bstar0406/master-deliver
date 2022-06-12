@@ -1,0 +1,28 @@
+.hive-list-card {
+  height: 189px;
+  padding: 24px 24px 16px;
+  border-radius: 25px;
+  background-color: #f2f5fa;
+  &:hover{
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+  }
+}
+
+.alert-circle{
+  width:16px;
+  height:16px;
+  border-radius: 50%;
+  background-color: #db3b30;
+  color:white;
+} 
+.empty-text{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #db3b30;
+}
